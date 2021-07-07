@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Flat Icon Pack -->
+    <link rel="stylesheet" href="assets/css/uicons-regular-rounded.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="section-signin d-flex align-items-center justify-content-center my-5 my-lg-0">
+			<div class="container-fluid">
+				<div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3">
+					<div class="col mx-auto">
+						<div class="card">
+							<div class="card-body">
+								<div class="p-4 rounded">
+									<div class="text-center">
+										<h3 class="">Sign in</h3>
+										<p>Don't have an account yet? <a href="javascript:;">Sign up here</a>
+										</p>
+									</div>
+									<div class="d-grid">
+										<a class="btn my-4 shadow-sm btn-white" href="javascript:;">
+                                            <span class="d-flex justify-content-center align-items-center">
+                                                <img class="me-2" src="assets/icons/search.svg" width="16" alt="Google">
+                                                    <span>Sign in with Google</span>
+											</span>
+										</a> <a href="javascript:;" class="btn btn-facebook"><i class="bx bxl-facebook"></i>Sign in with Facebook</a>
+									</div>
+									<div class="login-separater text-center mb-4"> <span>OR SIGN IN WITH EMAIL</span>
+										<hr/>
+									</div>
+									<div class="form-body">
+										<form class="row g-3">
+											<div class="col-12">
+												<label for="inputEmailAddress" class="form-label">Email Address</label>
+												<input type="email" class="form-control" id="inputEmailAddress" placeholder="Email Address">
+											</div>
+											<div class="col-12">
+												<label for="inputChoosePassword" class="form-label">Password</label>
+												<div class="input-group" id="show_hide_password">
+													<input type="password" class="form-control border-end-0" id="inputChoosePassword" placeholder="Password"> <a href="javascript:;" class="input-group-text bg-transparent"><i class='fi fi-rr-eye-crossed'></i></a>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="form-check form-switch">
+													<input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+													<label class="form-check-label" for="flexSwitchCheckChecked">Remember Me</label>
+												</div>
+											</div>
+											<div class="col-md-6 text-end">	<a href="javascript:;">Forgot Password ?</a>
+											</div>
+											<div class="col-12">
+												<div class="d-grid">
+													<button type="submit" class="btn btn-primary"></i>Sign in</button>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--end row-->
+			</div>
+		</div>
+	</div>
+
+    <!-- Bootstrap Bundel -->
+    <script src="assets/js/bootstrap.bundle.js"></script>
+	<script src="assets/js/jquery-3.6.0.min.js"></script>
+	<script src="assets/js/app.js"></script>
+</body>
+</html>
